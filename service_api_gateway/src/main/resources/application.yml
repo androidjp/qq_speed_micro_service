@@ -9,6 +9,6 @@ server:
   port: 8083
 zuul:
   routes:
-    service0: /service/0/**
-    service1: /service/1/**
+    service-car-0: /svc/car/0/**
+    service_player_0: /svc/player/0/**
 

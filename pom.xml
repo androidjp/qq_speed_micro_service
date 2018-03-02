@@ -13,7 +13,6 @@
 		<module>service_registry</module>
 		<module>service_car_0</module>
 		<module>service_player_0</module>
-		<module>service_player_1</module>
 	</modules>
 
 	<parent>
@@ -51,6 +50,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
