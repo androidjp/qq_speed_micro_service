@@ -15,6 +15,7 @@ public class CarControllerImpl extends BaseRestController implements CarControll
 
   @Override
   @GetMapping("/GET/{playerId}")
+//  @HystrixCommand(fallbackMethod="helloFallbackMethod")
   public JsonRes getPlayerCarList(@PathVariable("playerId") String playerId) {
     List<Car> carList = new ArrayList<>();
     for (int i = 0; i < 4; i++) {
